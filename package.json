@@ -1,6 +1,6 @@
 {
   "name": "starchart",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A general purpose Cosmos architecture and SDK",
   "main": "index.js",
   "scripts": {

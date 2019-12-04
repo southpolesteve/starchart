@@ -1,5 +1,7 @@
 # Starchart
 
+|🚧 WARNING: Alpha software. Under heavy development. Breaking changes at anytime 🚧 |
+
 Starchart is an opinionated SDK for Azure Cosmos DB with baked in best practices for storing documents and relationships
 
 ## Installation
