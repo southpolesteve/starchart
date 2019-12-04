@@ -29,10 +29,10 @@ async function main() {
   todo.state = "done";
 
   // Update a todo
-  container.save(todo);
+  await container.save(todo);
 
   // Delete a todo
-  container.destroy(todo);
+  await container.destroy(todo);
 }
 
 main();
