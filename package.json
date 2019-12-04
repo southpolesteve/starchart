@@ -1,0 +1,50 @@
+{
+  "name": "starchart",
+  "version": "0.0.1",
+  "description": "A general purpose Cosmos architecture and SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "compile": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/southpolesteve/starchart.git"
+  },
+  "author": "Steve Faulkner<southpolesteve@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/southpolesteve/starchart/issues"
+  },
+  "files": [
+    "lib/*"
+  ],
+  "homepage": "https://github.com/southpolesteve/starchart#readme",
+  "devDependencies": {
+    "@azure/cosmos": "^3.3.0",
+    "@babel/core": "7.7.4",
+    "@babel/preset-env": "7.7.4",
+    "@babel/preset-typescript": "7.7.4",
+    "@types/jest": "24.0.23",
+    "@types/node": "12.7.5",
+    "@types/node-fetch": "2.5.2",
+    "@typescript-eslint/eslint-plugin": "^2.8.0",
+    "@typescript-eslint/parser": "^2.8.0",
+    "@zeit/cosmosdb-server": "0.3.1",
+    "babel-cli": "^6.26.0",
+    "babel-jest": "24.9.0",
+    "eslint": "^6.7.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "24.9.0",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "@types/shortid": "0.0.29",
+    "node-fetch": "2.6.0",
+    "shortid": "2.2.15"
+  }
+}
