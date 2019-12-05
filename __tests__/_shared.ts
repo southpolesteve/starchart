@@ -2,8 +2,8 @@ import { createClient } from '../src'
 import { Agent } from 'https'
 import { CosmosClient } from '@azure/cosmos'
 
-const endpoint = 'https://localhost:3000'
-const key = 'foo'
+const endpoint = process.env.STARCHART_ENDPOINT || 'https://localhost:3000'
+const key = process.env.STARCHART_KEY || 'foo'
 
 const cosmosClient = new CosmosClient({
   endpoint,
